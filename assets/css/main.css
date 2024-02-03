@@ -524,7 +524,7 @@
 .header__cart-list-item {
     padding-left: 0;
     list-style: none;
-    height: 56vh;
+    height: 30vh;
     overflow-y: auto;
 }
 
