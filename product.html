@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QBeauty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Block Element Modifier -->
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng QBeauty
+
+                            <!-- Header QR code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/gg_play.png" alt="Google play" class="header__qr-dowload-img">
+                                    </a>
+                                    
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_store.png" alt="App store" class="header__qr-dowload-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon-link fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon-link fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i>
+                                Thông báo
+                            </a>
+
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lr5f34dl4vbtff_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm QBeauty chính hãng, mừng Tết Giáp Thìn, rước lộc linh đình</span>
+                                                <span class="header__notify-descriotion">Cùng QBeauty bỏ túi ngay các bí kíp mua sắm Tết hấp dẫn tại đây nhé</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lr5o3hx0jqh015_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm QBeauty chính hãng tặng bạn Sữa dưỡng thể da sáng tức thì Vaseline 350ml/chai</span>
+                                                <span class="header__notify-descriotion">Vaseline tin rằng bất cứ ai cũng xứng đáng sở hữu một làn da sáng khỏe bắt đầu từ việc nuôi dưỡng từ sâu bên trong</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-loyzorrmzdcrf2_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm QBeauty chính hãng</span>
+                                                <span class="header__notify-descriotion">Mô tả sản phẩm QBeauty chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">
+                                        Xem tất cả
+                                    </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon-link fa-regular fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng Ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng Nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/img/avata_user.png" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Nguyễn Minh Quân</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="/basic-commerce-with-html-css-js/index.html" class="header__logo-link">
+                            <img class="header__logo-img" src="./assets/img/logo1.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập tên sản phẩm cần tìm kiếm">
+                            
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">
+                                    Lịch sử tìm kiếm
+                                </h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem chống nắng</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Nước hoa hồng</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Nước dưỡng nhan bạc phận</a>
+                                    </li>        
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-selection">
+                            <span class="header__search-selection-label">
+                                Trong shop
+                            </span>
+                            <i class="header__search-selection-icon fa-solid fa-chevron-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <!-- Cart Layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-notice">3</span>
+
+                            <!-- No cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                            
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+
+                                    <!-- Cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lr5ulk380rrt30_tn" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Combo Sữa Tắm Ý Dĩ Trắng Da 800ml Và Sữa Rửa Mặt Dưỡng Ẩm Làm Mềm Da 160ml HATOMUGI Facial Whip</h5>
+                                                
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">90.000</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Trắng
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://down-vn.img.susercontent.com/file/87760c2d4d771e3cdbaa504b3c1e694c_tn" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Sữa Chống Nắng Dưỡng Da Trắng Mịn Sunplay Skin Aqua Clear White SPF50+ PA++++ (25g/55g)</h5>
+                                                
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">198.000</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Nắp vàng
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lichh2soopvwf9" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">[Sale sập sàn] Kem Chống Nắng Nâng Tone SUNPLAY Skin Aqua Tone Up Uv Spf50+ Pa++++ 50g</h5>
+                                                
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">135.000</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">4</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="header__cart-view-card btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="product-info-container">
+            <div class="grid">
+                <!-- Prduct slide -->
+                <div class="grid__row sm-gutter product">
+                    <div class="col l-5 c-12">
+                        <div class="product-slide">
+                            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lr5e0p9hb7pg62" alt="Kem chống nắng" class="product__img" style="opacity: 1;">
+                            <div class="product__cards product__cards-mobile">
+                                <button class="product__cards-btn product__cards-btn--prev" style="display: block;">
+									<i class="fas fa-chevron-left"></i>
+								</button>
+                                <button class="product__cards-btn product__cards-btn--next" style="display: none;">
+									<i class="fas fa-chevron-right"></i>
+								</button>
+                                <div class="product__cards-container">
+                                    <div class="product__card-wrapper">
+										<div class="product__card" style="border: 2px solid transparent;">
+											<img src="https://cdn.shopify.com/s/files/1/0251/2155/4510/products/7652p_262c_1x_e931ecde-ec21-47ef-96eb-8424c3913890_800x.jpg?v=1608318433" class="product__card-img">
+										</div>
+									</div>
+                                    <div class="product__card-wrapper">
+										<div class="product__card" style="border: 2px solid transparent;">
+											<img src="https://cdn.shopify.com/s/files/1/0251/2155/4510/products/7652p_262c_2x_6fd3fe79-79c8-4092-84b3-34ebbce9a769_800x.jpg?v=1608318433" class="product__card-img">
+										</div>
+									</div>
+                                    <div class="product__card-wrapper">
+										<div class="product__card" style="border: 2px solid transparent;">
+											<img src="https://cdn.shopify.com/s/files/1/0266/4841/2351/products/013244285218-1_1800x1800.jpg?v=1611083347" class="product__card-img">
+										</div>
+									</div>
+                                    <div class="product__card-wrapper">
+										<div class="product__card" style="border: 2px solid transparent;">
+											<img src="https://cdn.shopify.com/s/files/1/0266/4841/2351/products/013244285218-6_1800x1800.jpg?v=1611083347" class="product__card-img">
+										</div>
+									</div>
+                                    <div class="product__card-wrapper">
+										<div class="product__card" style="border: 2px solid var(--var-color);">
+											<img src="https://cdn.shopify.com/s/files/1/0266/4841/2351/products/013244356772-2_1800x1800.jpg?v=1611078189" class="product__card-img">
+										</div>
+									</div>
+                                    <div class="product__card-wrapper">
+										<div class="product__card" style="border: 2px solid transparent;">
+											<img src="https://cdn.shopify.com/s/files/1/0266/4841/2351/products/013244356772-7_1800x1800.jpg?v=1611078189" class="product__card-img">
+										</div>
+									</div>
+                                </div>
+                            </div>
+
+                            <div class="product__actions">
+								<div class="product__sharing-icons">
+									<div class="text">Chia sẻ:</div>
+									<a href="#" class="product__action-icon messenger">
+										<i class="fab fa-facebook-messenger"></i>
+									</a>
+									<a href="#" class="product__action-icon facebook">
+										<i class="fab fa-facebook"></i>
+									</a>
+									<a href="#" class="product__action-icon google">
+										<i class="fab fa-google-plus"></i>
+									</a>
+									<a href="#" class="product__action-icon pinterest">
+										<i class="fab fa-pinterest"></i>
+									</a>
+									<a href="#" class="product__action-icon twitter">
+										<i class="fab fa-twitter-square"></i>
+									</a>
+								</div>
+								<div class="product__liking">
+									<i class="product__action-icon product__action-icon--liking far fa-heart"></i>
+									<a class="text">Đã thích (17.2k)</a>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col l-7 c-12">
+						<div class="product-content">
+							<div class="product__title">
+								<div class="label-loving">
+									Yêu Thích
+								</div>
+								<span>[KHAI TRƯƠNG 149K-219K] Chuỗi Balo, Túi xách Minecraft được giảm giá đặc biệt nhân
+									ngày mở bán</span>
+							</div>
+
+							<div class="product__status">
+								<div class="product__status-rating">
+									<div class="product__status-rating-point underscore">4.9</div>
+									<div class="product__status-rating-stars">
+										<i class="product__status-rating-star fas fa-star"></i>
+										<i class="product__status-rating-star fas fa-star"></i>
+										<i class="product__status-rating-star fas fa-star"></i>
+										<i class="product__status-rating-star fas fa-star"></i>
+										<i class="product__status-rating-star fas fa-star"></i>
+									</div>
+								</div>
+								<div class="product__status-reviewing hide-on-mobile">
+									<span class="product__status-reviewing-qnt underscore">78</span>
+									<span class="product__status-text pr-text">Đánh Giá</span>
+								</div>
+								<div class="product__status-sold">
+									<span class="product__status-sold-qnt">251</span>
+									<span class="product__status-text pr-text">Đã Bán</span>
+								</div>
+								<div class="product__liking">
+									<i class="product__action-icon product__action-icon--liking far fa-heart"></i>
+									<a class="text hide-on-mobile">Đã thích (2,1k)</a>
+								</div>
+							</div>
+
+							<div class="product__price">
+								<div class="product__price-main">
+									<span class="product__price-old">₫396.000</span>
+									<div class="product__price-current">
+										<span class="product__price-new">₫219.000</span>
+										<span class="product__price-label bgr-orange">33% GIẢM</span>
+									</div>
+								</div>
+								<div class="product__price-slogan hide-on-mobile-tablet">
+									<i class="product__price-icon-tag fas fa-tags"></i>
+									<span class="product__price-slogan-text">Ở đâu rẻ hơn, Minecraft Shop hoàn
+										tiền</span>
+									<i class="product__price-icon-question far fa-question-circle"></i>
+								</div>
+							</div>
+
+							<div class="product__info">
+								<div class="product__codes hide-on-mobile-tablet">
+									<label class="product__codes-label width-label">Mã Giảm Giá Của Shop</label>
+									<div class="product__codes-wrapper">
+										<div class="product__code">Giảm ₫3k</div>
+										<div class="product__code">Giảm ₫5k</div>
+										<div class="product__code">Giảm ₫8k</div>
+									</div>
+								</div>
+
+								<div class="product__combo hide-on-mobile-tablet">
+									<label class="product__combo-label width-label">Combo Khuyến Mãi</label>
+									<div class="product__combo-note">Mua 2 &amp; giảm 5%</div>
+								</div>
+
+								<div class="product__shipping">
+									<label class="product__shipping-label width-label">Vận Chuyển</label>
+									<div class="product__shipping-wrapper">
+										<div class="product__shipping-free">
+											<div class="product__shipping-free-icon-wrapper">
+												<i class="product__shipping-free-icon fas fa-truck-loading"></i>
+											</div>
+											<div class="product__shipping-free-wrapper">
+												<div class="product__shipping-free-title">Miễn Phí Vận Chuyển</div>
+												<div class="product__shipping-free-note">Miễn Phí Vận Chuyển khi đơn đạt
+													giá trị tối thiểu</div>
+											</div>
+										</div>
+
+										<div class="product__shipping-to">
+											<i class="product__shipping-to-icon-truck fas fa-truck"></i>
+											<div class="product__shipping-to-wrapper">
+												<div class="product__shipping-to-destination">
+													<label class="product__shipping-to-label">Vận Chuyển Tới</label>
+													<div class="product__shipping-to-cities">
+														<span class="product__shipping-to-city">Huyện Ba Vì, Hà
+															Nội</span>
+														<i class="product__shipping-to-icon fas fa-chevron-down"></i>
+													</div>
+												</div>
+
+												<div class="product__shipping-to-fee">
+													<label class="product__shipping-to-label">Phí Vận Chuyển</label>
+													<div class="product__shipping-to-fee-wrapper">
+														<div class="product__shipping-to-fees">₫10.500</div>
+														<i class="product__shipping-to-icon fas fa-chevron-down"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="product__options">
+									<label class="product__options-label width-label">Chọn loại hàng</label>
+									<div class="product__options-items-wrapper">
+										<div class="product__options-items"><button class="product__options-item">Creeper</button><button class="product__options-item">Trong suốt</button><button class="product__options-item">TNT</button></div>
+										<div class="product__options-items-error-message">Vui lòng chọn Phân loại hàng
+										</div>
+									</div>
+								</div>
+
+								<div class="product__qnt hide-on-mobile">
+									<label class="product__qnt-label width-label">Số Lượng</label>
+									<div class="shop__qnt-btns">
+										<button class="shop__qnt-btn shop__qnt-btn--dec">
+											<i class="shop__qnt-btn-icon fas fa-minus"></i>
+										</button>
+										<input class="shop__qnt-input" type="text" value="1" maxlength="4">
+										<button class="shop__qnt-btn shop__qnt-btn--inc">
+											<i class="shop__qnt-btn-icon fas fa-plus"></i>
+										</button>
+									</div>
+									<div class="product__qnt-note">
+										<span class="product__qnt-note-num">1100</span>
+										sản phẩm có sẵn
+									</div>
+								</div>
+
+								<div class="product-btns-main">
+									<button class="product-btn-main product-btn-main__msg clear-btn hide-on-tablet">
+										<i class="product-btn-main__msg-icon far fa-comment-dots"></i>
+									</button>
+									<button class="product-btn-main product-btn-main__adding">
+										<i class="product-btn-main__adding-icon fas fa-cart-plus"></i>
+										<span class="product-btn-main__text product-btn-main__adding-text hide-on-mobile">Thêm Vào Giỏ Hàng</span>
+									</button>
+									<button onclick="document.location.href=this.getAttribute('href');" href="product-cart.html" class="product-btn-main product-btn-main__buying">
+										<span class="product-btn-main__text product-btn-main__buying-text">Mua
+											Ngay</span>
+									</button>
+								</div>
+							</div>
+
+							<div class="product__guarantee-container">
+								<a href="*" class="product__guarantee">
+									<div class="product__guarantee-wrapper">
+										<span>
+											<i class="product__guarantee-icon fas fa-clipboard-check"></i>
+										</span>
+										<div class="product__guarantee-text">Minecraft Shop Đảm Bảo</div>
+									</div>
+									<span class="product__guarantee-note">3 Ngày Trả Hàng / Hoàn Tiền</span>
+								</a>
+							</div>
+						</div>
+					</div>
+                </div>
+            </div>
+            <div class="grid">
+				<!-- Product shop -->
+				<div class="grid__row sm-gutter product-shop">
+					<div class="product-shop__contact">
+						<a href="#" class="product-shop__contact-img-link">
+							<div class="product-shop__contact-avatar-wrapper">
+								<img class="product-shop__contact-avatar" src="https://down-vn.img.susercontent.com/file/sg-11134201-7rbma-ll900ypgxfupc5_tn">
+							</div>
+							<span class="label-loving">Yêu Thích</span>
+						</a>
+
+						<div class="product-shop__contact-container">
+							<div class="product-shop__contact-info">
+								<div class="product-shop__contact-name">toykids</div>
+								<div class="product-shop__contact-online-time">Online 28 Phút Trước</div>
+							</div>
+
+							<div class="product-shop__contact-main">
+								<button class="product-shop__contact-btn product-shop__contact-message-btn hide-on-mobile">
+									<i class="product-shop__contact-icon far fa-comment-alt"></i>
+									<span class="product-shop__contact-message-text">Chat Ngay</span>
+								</button>
+
+								<a href="#" class="product-shop__contact-btn product-shop__contact-viewing">
+									<i class="product-shop__contact-icon fas fa-store"></i>
+									<div class="product-shop__contact-viewing-text">Xem Shop</div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="product-shop__side hide-on-mobile-tablet">
+						<div class="product-shop__side-container">
+							<div class="product-shop__side-wrapper">
+								<label class="product-shop__side-label">Đánh giá</label>
+								<div class="product-shop__side-qnt">220</div>
+							</div>
+
+							<a href="#" class="product-shop__side-wrapper">
+								<label class="product-shop__side-label">Sản phẩm</label>
+								<div href="#" class="product-shop__side-qnt product-shop__side-qnt--link">12</div>
+							</a>
+						</div>
+
+						<div class="product-shop__side-container">
+							<div class="product-shop__side-wrapper">
+								<label class="product-shop__side-label">Tỉ Lệ Phản Hồi</label>
+								<div class="product-shop__side-qnt">95%</div>
+							</div>
+
+							<div class="product-shop__side-wrapper">
+								<label class="product-shop__side-label">Thời Gian Phản Hồi</label>
+								<div class="product-shop__side-qnt">trong vài phút</div>
+							</div>
+						</div>
+
+						<div class="product-shop__side-container">
+							<div class="product-shop__side-wrapper">
+								<label class="product-shop__side-label">Tham gia</label>
+								<div class="product-shop__side-qnt">6 tháng trước</div>
+							</div>
+
+							<div class="product-shop__side-wrapper">
+								<label class="product-shop__side-label">Người theo dõi</label>
+								<div class="product-shop__side-qnt">1.5k</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product shop slide on mobile -->
+					<div class="product-shop__side-mobile">
+						<div class="product-shop__side-wrapper">
+							<label class="product-shop__side-label">Đánh giá</label>
+							<div class="product-shop__side-qnt">220</div>
+						</div>
+
+						<a href="#" class="product-shop__side-wrapper">
+							<label class="product-shop__side-label">Sản phẩm</label>
+							<div href="#" class="product-shop__side-qnt product-shop__side-qnt--link">12</div>
+						</a>
+
+						<div class="product-shop__side-wrapper">
+							<label class="product-shop__side-label">Tỉ Lệ Phản Hồi</label>
+							<div class="product-shop__side-qnt">95%</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="grid">
+				<div class="grid__row sm-gutter product-content__side" style="padding-bottom: 25px;">
+					<!-- Product left content -->
+					<div class="product-content--left">
+						<!-- Product details -->
+						<div class="product-details">
+							<div class="product-detail">
+								<div class="product-detail__title">Chi tiết sản phẩm</div>
+								<div class="product-details__wrapper">
+									<div class="product-detail__wrapper">
+										<span class="product-detail__label">Danh Mục</span>
+										<div class="product-detail__links">
+											<a class="product-detail__link" href="/">
+												<span>Minecraft Shop</span>
+											</a>
+											<svg class="product-detail__icon" enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0">
+												<path d="m2.5 11c .1 0 .2 0 .3-.1l6-5c .1-.1.2-.3.2-.4s-.1-.3-.2-.4l-6-5c-.2-.2-.5-.1-.7.1s-.1.5.1.7l5.5 4.6-5.5 4.6c-.2.2-.2.5-.1.7.1.1.3.2.4.2z">
+												</path>
+											</svg>
+											<a class="product-detail__link" href="/">
+												<span>Phụ kiện</span>
+											</a>
+											<svg class="product-detail__icon" enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0">
+												<path d="m2.5 11c .1 0 .2 0 .3-.1l6-5c .1-.1.2-.3.2-.4s-.1-.3-.2-.4l-6-5c-.2-.2-.5-.1-.7.1s-.1.5.1.7l5.5 4.6-5.5 4.6c-.2.2-.2.5-.1.7.1.1.3.2.4.2z">
+												</path>
+											</svg>
+											<a class="product-detail__link" href="/">
+												<span>Balo</span>
+											</a>
+										</div>
+									</div>
+
+									<div class="product-detail__wrapper">
+										<span class="product-detail__label">Thương hiệu</span>
+										<a class="product-detail__link" href="/">
+											<span>No brand</span>
+										</a>
+									</div>
+
+									<div class="product-detail__wrapper">
+										<span class="product-detail__label">Chất liệu</span>
+										<span class="product-detail__text">Vải</span>
+									</div>
+
+									<div class="product-detail__wrapper">
+										<span class="product-detail__label">Xuất xứ</span>
+										<span class="product-detail__text">Mỹ</span>
+									</div>
+
+									<div class="product-detail__wrapper">
+										<span class="product-detail__label">Kho hàng</span>
+										<span class="product-detail__text">1911</span>
+									</div>
+
+									<div class="product-detail__wrapper">
+										<span class="product-detail__label">Gửi từ</span>
+										<span class="product-detail__text">Quận Hoàng Mai, Hà Nội</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="product-description">
+								<div class="product-description__title">Mô tả sản phẩm</div>
+								<span class="product-description__content">🎉 Balo Minecraft creeper backpack là mẫu ba
+lô siêu hot mới ra mắt năm 2017. Chất liệu: 100% polyester 🎉
+*** Kích thước: 43x30x14cm ***
+🌼 Sản xuất bởi J!NX
+🌼 Hàng chính hãng USA<span class="dots hidden"> ...</span><span class="text-more">
+🌼 Ba lô được thiết kế dựa trên hoa văn của creeper, với màu xanh làm chủ đạo, bên
+ngoài là màu xanh nền cỏ của creeper.
+🌼 Ngăn chính gồm các hoa văn in mặt của creeper màu ghi, nhìn xa giống như một hang
+đá vậy
+🌼 Ngăn phụ bên ngoài in hình TNT giống như khối thuốc nổ chứa trong người con
+creeper ^^
+🌼 Phần phía lưng cũng có hình creeper được may vào lớp đệm, mỗi khóa kéo đều là một
+khuôn mặt của creeper
+🌼 Trọng lượng của ba lô rất nhẹ chỉ hơn 300g</span></span>
+								<button class="read-more-btn clear-btn">
+									<span class="read-more-btn__text text-show">Ẩn bớt</span>
+									<span class="read-more-btn__icon--down hidden">
+										<i class="read-more-btn__icon fas fa-angle-down"></i>
+									</span>
+									<span class="read-more-btn__icon--up">
+										<i class="read-more-btn__icon fas fa-angle-up"></i>
+									</span>
+								</button>
+							</div>
+						</div>
+
+						<!-- Product reviews -->
+						<div class="product-reviews">
+							<div class="product-reviews__header">ĐÁNH GIÁ SẢN PHẨM</div>
+							<!-- Stars on mobile -->
+							<div class="product-reviews__rating-mobile">
+								<div class="product-reviews__rating-stars product-reviews__rating-stars-mobile">
+									<i class="product-reviews__rating-star fas fa-star"></i>
+									<i class="product-reviews__rating-star fas fa-star"></i>
+									<i class="product-reviews__rating-star fas fa-star"></i>
+									<i class="product-reviews__rating-star fas fa-star"></i>
+									<i class="product-reviews__rating-star fas fa-star"></i>
+								</div>
+								<div class="product-reviews__rating-score-wrapper">
+									<span class="product-reviews__rating-score">4.9</span><span class="product-reviews__rating-score-out-of">/5</span>
+								</div>
+								<div class="product-reviews__total">(44 đánh giá)</div>
+							</div>
+
+							<div class="product-reviews__container hide-on-mobile">
+								<div class="product-reviews__rating">
+									<div class="product-reviews__rating-score-wrapper">
+										<span class="product-reviews__rating-score">4.9</span>
+										<span class="product-reviews__rating-score-out-of"> trên 5 </span>
+									</div>
+
+									<div class="product-reviews__rating-stars">
+										<i class="product-reviews__rating-star fas fa-star"></i>
+										<i class="product-reviews__rating-star fas fa-star"></i>
+										<i class="product-reviews__rating-star fas fa-star"></i>
+										<i class="product-reviews__rating-star fas fa-star"></i>
+										<i class="product-reviews__rating-star fas fa-star"></i>
+									</div>
+								</div>
+
+								<div class="product-reviews__filters">
+									<div class="product-reviews__filter product-reviews__filter--active">tất cả</div>
+									<div class="product-reviews__filter">5 Sao (0)</div>
+									<div class="product-reviews__filter">4 Sao (0)</div>
+									<div class="product-reviews__filter">3 Sao (0)</div>
+									<div class="product-reviews__filter">2 Sao (0)</div>
+									<div class="product-reviews__filter">1 Sao (0)</div>
+									<div class="product-reviews__filter product-reviews__filter--comment">Có Bình luận
+										(0)</div>
+									<div class="product-reviews__filter product-reviews__filter--photo">Có hình ảnh /
+										video (0)</div>
+								</div>
+							</div>
+
+							<div class="product-reviews__comments">
+								<div class="product-reviews__comment">Rất tiếc, hiện chưa có bình luận nào</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="product-content--right hide-on-mobile-tablet">
+						<!-- Product vouchers -->
+						<div class="product-vouchers hide-on-mobile">
+							<div class="product-vouchers__header">Mã giảm giá của Shop</div>
+							<div class="product-vouchers__list">
+								<div class="product-vouchers__item">
+									<div class="product-vouchers__item-wrapper">
+										<div class="product-vouchers__item-title">Giảm ₫3k Đơn Tối Thiểu ₫89k</div>
+										<div class="product-vouchers__item-expiry">HSD:31-03-2021</div>
+									</div>
+									<div class="product-vouchers__btn-wrapper">
+										<button class="product-vouchers__btn-save">Lưu</button>
+										<div class="product-vouchers__border-dashed"></div>
+									</div>
+									<div class="product-vouchers__border-circle">
+										<div class="product-vouchers__border-circle-edge"></div>
+									</div>
+								</div>
+
+								<div class="product-vouchers__item">
+									<div class="product-vouchers__item-wrapper">
+										<div class="product-vouchers__item-title">Giảm ₫3k Đơn Tối Thiểu ₫89k</div>
+										<div class="product-vouchers__item-expiry">HSD:31-03-2021</div>
+									</div>
+									<div class="product-vouchers__btn-wrapper">
+										<button class="product-vouchers__btn-save">Lưu</button>
+										<div class="product-vouchers__border-dashed"></div>
+									</div>
+									<div class="product-vouchers__border-circle">
+										<div class="product-vouchers__border-circle-edge"></div>
+									</div>
+								</div>
+
+								<div class="product-vouchers__item">
+									<div class="product-vouchers__item-wrapper">
+										<div class="product-vouchers__item-title">Giảm ₫3k Đơn Tối Thiểu ₫89k</div>
+										<div class="product-vouchers__item-expiry">HSD:31-03-2021</div>
+									</div>
+									<div class="product-vouchers__btn-wrapper">
+										<button class="product-vouchers__btn-save">Lưu</button>
+										<div class="product-vouchers__border-dashed"></div>
+									</div>
+									<div class="product-vouchers__border-circle">
+										<div class="product-vouchers__border-circle-edge"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Product hot sales -->
+						<div class="product-hot-sales hide-on-mobile-tablet">
+							<div class="product-hot-sales__header">Top Sản Phẩm Bán Chạy</div>
+							<a href="#" class="product-hot-sales__link">
+								<div>
+									<img class="product-hot-sales__item-img" src="https://cdn.shopify.com/s/files/1/0266/4841/2351/products/9781984818713-guide-to-minecraft-dungeons_1800x1800.jpg?v=1614637263">
+								</div>
+								<div class="product-hot-sales__item-wrapper">
+									<div class="product-hot-sales__item-name">Sách hướng dẫn chơi Minecraft Dungeons bìa cứng</div>
+									<div class="product-hot-sales__item-price">₫219.000</div>
+								</div>
+							</a>
+							<a href="#" class="product-hot-sales__link">
+								<div>
+									<img class="product-hot-sales__item-img" src="https://cdn.shopify.com/s/files/1/0266/4841/2351/products/MCIC-SM-100016-Grey-MF_1800x1800.png?v=1612792144">
+								</div>
+								<div class="product-hot-sales__item-wrapper">
+									<div class="product-hot-sales__item-name">Áo thun ngắn Steve và Alex sinh tồn</div>
+									<div class="product-hot-sales__item-price">₫125.900</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">QBeauty Mall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Về QBeauty</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới Thiệu</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển Dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều Khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Mỹ Phẩm</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Làm Đẹp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang Trí</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Theo giỏi chúng tôi trên</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <i class="footer-item__icon fa-brands fa-facebook"></i>
+                                <a href="" class="footer-item__link">Facebook</a>
+                            </li>
+                            <li class="footer-item">
+                                <i class="footer-item__icon fa-brands fa-square-instagram"></i>
+                                <a href="" class="footer-item__link">Instagram</a>
+                            </li>
+                            <li class="footer-item">
+                                <i class="footer-item__icon fa-brands fa-linkedin"></i>
+                                <a href="" class="footer-item__link">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__dowload">
+                            <img src="./assets/img/qr_code.png" alt="dowload qr" class="footer__dowload-qr">
+                            <div class="footer__dowload-apps">
+                                <a href="" class="footer__dowload-app-link">
+                                    <img src="./assets/img/app_store.png" alt="app_store" class="footer__dowload-app-img">
+                                </a>
+                                <a href="" class="footer__dowload-app-link">
+                                    <img src="./assets/img/gg_play.png" alt="google_play" class="footer__dowload-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="grid">
+                    <p class="footer-text">© 2024 - Bản quyền thuộc về Công ty TNHH QBeauty</p>
+                </div>
+            </div>
+
+        </footer>
+    </div>

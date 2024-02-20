@@ -16,7 +16,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 100%;
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
@@ -125,7 +125,7 @@ html {
     text-decoration: none;
     border: none;
     border-radius: 2px;
-    font-size: 1.4rem;
+    font-size: 0.875rem;
     padding: 0 12px;
     cursor: pointer;
     color: var(--text-color);
@@ -141,7 +141,7 @@ html {
 
 .btn.btn--size-s {
     height: 32px;
-    font-size: 12px;
+    font-size: 7.5px;
     padding: 0 8px;
 }
 
@@ -184,11 +184,11 @@ html {
 }
 
 .select-input__label {
-    font-size: 1.4rem;
+    font-size: 0.875rem;
 }
 
 .select-input__icon {
-    font-size: 1.4rem;
+    font-size: 0.875rem;
     color: #4A4A4A;
     position: relative;
     top: 1px;
@@ -208,7 +208,7 @@ html {
 }
 
 .select-input__link {
-    font-size: 1.4rem;
+    font-size: 0.875rem;
     color: var(--text-color);
     text-decoration: none;
     display: block;
@@ -243,7 +243,7 @@ html {
 .pagination-item__link {
     --height: 30px;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 300;
     color: #939393;
     min-width: 40px;
@@ -252,8 +252,4 @@ html {
     text-align: center;
     line-height: var(--height);
     border-radius: 2px;
-}
-
-.pagination-item__icon {
-
 }
