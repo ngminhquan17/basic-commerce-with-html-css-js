@@ -212,6 +212,10 @@
     color: var(--star-gold-color);
 }
 
+.comment-product__status-rating-star {
+    color: var(--primary-color);
+}
+
 .product__status-reviewing {
     display: flex;
     border-right: 1px solid #DBDBDB;
@@ -1590,7 +1594,9 @@ ul {
 #comment-box {
     background-color: transparent;
     width: 100%;
-    padding-left: 5px;
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 9px;
 }
 
 textarea {
@@ -1611,4 +1617,43 @@ textarea {
     overflow-wrap: break-word;
     column-count: initial !important;
     white-space: pre-wrap;
+    border-radius: 50px;
+}
+
+.comment-product-reviews__filters {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.comment-product-reviews__filter {
+    user-select: none;
+    height: 1rem;
+    line-height: 1rem;
+    min-width: 3rem;
+    text-align: center;
+    padding: 0 .625rem;
+    background-color: #fff;
+    cursor: pointer;
+    margin: .3125rem .5rem .3125rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    font-size: 0.875rem;
+    border-radius: 2px;
+}
+
+.comment-item-content {
+    padding-left: 60px;
+}
+
+.frame-comment-sent {
+    border: none;
+    background-color: var(--white-color);
+    cursor: pointer;
+}
+
+.frame-comment-sent:hover {
+    opacity: 0.5;
 }
