@@ -1489,3 +1489,126 @@
 .toast-msg__close:hover {
     color: rgba(0, 0, 0, 0.3);
 }
+
+/* Product reviews */
+ul {
+    list-style-type: none;
+}
+
+.product-reviews__comment {
+    text-align: left;
+}
+
+.comment-item-user-img-wrapper {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+}
+
+.item-reviewer {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* padding-inline-start: 40px; */    
+    padding-left: 0px;
+
+}
+
+.comment-item-user {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+}
+
+.comment-item li {
+    list-style: none;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #666;
+    line-height: 2.2rem;
+}
+
+.comment-item-user-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.product-reviews__comment-input {
+    font-size: 0.875rem;
+    margin-top: 15px;
+    background-color: white;
+    padding: 25px 25px 15px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    border-radius: .125rem;
+    color: #222;
+}
+
+.comment-input-avatar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.comment-input-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.frame-comment-wrapper {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.frame-comment {
+    /* padding: 2px 20px 0; */
+    background-color: var(--third-blue);
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#comment-box {
+    background-color: transparent;
+    width: 100%;
+    padding-left: 5px;
+}
+
+textarea {
+    font-size: 16px;
+    resize: none;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+    white-space: pre-wrap;
+}
